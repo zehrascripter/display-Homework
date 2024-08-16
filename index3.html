@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            color: #fff;
+        }
+
+        body {
+            background-color: aqua;
+        }
+
+        .main {
+            width: 90%;
+            height: 70px;
+            margin: auto;
+            margin-top: 50px;
+            box-shadow: 5px 5px 10px rgb(128, 114, 114);
+        }
+
+        /* ==============================================nav1================================================== */
+
+        .nav1 {
+            height: 40%;
+            width: 100%;
+            background-color: black;
+
+        }
+
+        .items {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-right: 40px;
+
+        }
+
+        .mini {
+            margin: 5px 5px;
+        }
+
+        .txt {
+            margin: 2px;
+        }
+
+        .hr {
+            border: 2px;
+            color: gainsboro;
+        }
+
+
+        /* ==============================================nav2================================================== */
+
+
+        .nav2 {
+            height: 59%;
+            width: 100%;
+            background-color: rgb(41, 37, 37);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        img {
+            width: 25px;
+            border-radius: 5px;
+            margin: 0 5px;
+        }
+
+        button {
+            background-color: green;
+            width: 70px;
+            margin-right: 5px;
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            list-style-type: none;
+            margin-left: 10px;
+        }
+
+        input {
+            width: 400px;
+            padding: 5px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .fa-magnifying-glass {
+            margin-left: -20px;
+            color: gray;
+        }
+
+        .srchBar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav1">
+            <div class="items">
+                <div class="txt bg"><img src="txt.webp" class="mini"></div>
+
+                <div class="phone bg"><i class="fa-solid fa-phone mini"></i></div>
+                <div class="card bg"><i class="fa-solid fa-address-card mini"></i></div>
+                <div class="book bg"><i class="fa-solid fa-book mini"></i></div>
+                <div class="fb bg"><i class="fa-brands fa-facebook-f mini"></i></div>
+                <div class="machine bg"><i class="fa-solid fa-cash-register mini"></i></div>
+                <div class="txt bg"><img src="txt.webp" class="mini"></div>
+            </div>
+        </div>
+        <hr>
+        <div class="nav2">
+            <div class="logo">
+                <img src="pexcelsLogo.png" alt="">
+                <h3>Pexels</h3>
+            </div>
+            <div class="srchBar">
+                <div class="con1"><input type="text" placeholder="Search for tree photos"></div>
+                <div class="con"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>Explore</li>
+                    <li>Licence</li>
+                    <li>Upload</li>
+                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                </ul>
+            </div>
+            <div class="btn">
+                <button>Join</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
